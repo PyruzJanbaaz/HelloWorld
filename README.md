@@ -6,6 +6,7 @@ I create a Maven project for Hello Word Example. I need the following tools and 
 
 # Dependencies
 Open the pom.xml file
+Spring Boot version:
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -13,6 +14,8 @@ Open the pom.xml file
 		<version>2.1.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+and dpendencies:
       
         <dependency>
             <groupId>org.springframework.boot</groupId>
