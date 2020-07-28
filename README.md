@@ -5,6 +5,14 @@ I create a Maven project for Hello Word Example. I need the following tools and 
 - Maven 3.3.9
 
 # Dependencies
+Open the pom.xml file
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.3.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+      
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
