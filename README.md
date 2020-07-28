@@ -6,6 +6,7 @@ I create a Maven project for Hello Word Example. I need the following tools and 
 
 # Dependencies
 Open the pom.xml file
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
